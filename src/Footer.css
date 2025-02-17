@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.footer span {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.2);
+}
